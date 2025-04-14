@@ -2,6 +2,18 @@
 ## About
 The Software system is a turf management system where respective turfs can be managed by the owners. Also,it is a turf booking system where turf slots can be booked by the users depending upon their preference and availability.
 
+## Steps to Run
+- Install docker 
+    Windows: Invoke-WebRequest -UseBasicParsing "https://desktop.docker.com/win/main/amd64/Docker Desktop Installer.exe" -OutFile "DockerInstaller.exe"
+    Start-Process ".\DockerInstaller.exe"
+    Mac: curl -L "https://desktop.docker.com/mac/main/arm64/Docker.dmg" -o Docker.dmg
+    open Docker.dmg
+- git clone https://github.com/ani1100/turfers.git
+- cd turfers
+- docker-compose up --build
+
+
+
 ## Technologies Used
 * NodeJS
 * ReactJS
